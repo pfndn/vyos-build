@@ -1,8 +1,9 @@
 name: Build VyOS
 
 on:
-     branches: 
-       - equuleus
+     push:
+          branches: 
+          - equuleus
 
 jobs:
   build:
